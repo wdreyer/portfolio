@@ -91,8 +91,9 @@ export default function Home() {
   </motion.div>
 </div>
 </section>
+<section id="projects">
 <Projects/>
-    
+</section>
       <section id="skills" className="h-[38rem] flex items-center justify-center bg-white bg-opacity-10 shadow">
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-4">Skills</h2>

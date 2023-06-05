@@ -1,0 +1,1130 @@
+.g1nrbpkt[class][class]{view-transition-name:root;--view-transition-name:root;}
+
+.g1nrbpkt[class][class]:root{--linaria-theme_motion-enter-curve-animation-timing-function:linear( 0,0.01942 1.83%,0.07956 4.02%,0.47488 13.851%,0.65981 19.572%,0.79653 25.733%,0.89048 32.693%,0.95081 41.254%,0.98361 52.535%,0.99665 68.277%,0.99988 );--linaria-theme_motion-exit-curve-animation-timing-function:linear( 0,0.01942 1.83%,0.07956 4.02%,0.47488 13.851%,0.65981 19.572%,0.79653 25.733%,0.89048 32.693%,0.95081 41.254%,0.98361 52.535%,0.99665 68.277%,0.99988 );}
+
+@supports (transition-timing-function:linear(0,0 0%)){
+.g1nrbpkt[class][class]:root{--linaria-theme_motion-standard-curve-animation-timing-function:linear( 0,0.02044 2.46%,0.08322 5.391%,0.46561 17.652%,0.63901 24.342%,0.76663 31.093%,0.85981 38.454%,0.92965 47.845%,0.97154 59.516%,0.99189 74.867%,0.9991 );}}
+
+.g1nrbpkt[class][class] > head,.g1nrbpkt[class][class] > body{--view-transition-name:none;}
+
+.g1nrbpkt[class][class]:not(.native[class][class]) [view-transition-element]{overflow:var(--view-transition_overflow);pointer-events:var(--view-transition_pointer-events,inherit);visibility:var(--view-transition_visibility);}
+
+.g1nrbpkt[class][class]:not(.native[class][class]) [view-transition-element] > *:where(:not([view-transition-element])){--view-transition-name:none;}
+
+@property --view-transition-name{syntax:'<string>';inherits:false;initial-value:none;}
+
+.t11li817[class][class]{contain:strict;top:0;bottom:0;pointer-events:var(--transition-layer_pointer-events,none);position:var(--transition-layer_position,fixed);-webkit-user-select:none;user-select:none;z-index:2001;}
+
+.dir.t11li817[class][class]{right:0;left:0;}
+
+.nd992co[class][class]{--reduced-motion_type:no-motion;--reduced-motion_duration:150ms;}
+
+.n5voxd9[class][class]{--reduced-motion_type:no-animation;--reduced-motion_duration:0.00000000001s;}
+.r1cxi8bv[class][class]{visibility:var(--view-transition_visibility);}
+
+.r1cxi8bv[class][class]::view-transition-old{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;}
+
+.dir.r1cxi8bv[class][class]::view-transition-old{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-r1cxi8bv;}
+
+.r1cxi8bv[class][class] .view-transition-old[view-transition-old]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;}
+
+.dir.r1cxi8bv[class][class] .view-transition-old[view-transition-old]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-r1cxi8bv;}
+
+@keyframes fade-r1cxi8bv{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}
+
+.r1cxi8bv[class][class]::view-transition-old > [data-static-element-wrapper] > [view-transition-element]{min-height:unset;--debug-var:set;}
+
+.r1cxi8bv[class][class] .view-transition-old[view-transition-old] > [data-static-element-wrapper] > [view-transition-element]{min-height:unset;--debug-var:set;}
+
+.r1cxi8bv[class][class]::view-transition-new{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.r1cxi8bv[class][class]::view-transition-new{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-r1cxi8bv;}
+
+.r1cxi8bv[class][class] .view-transition-new[view-transition-new]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.r1cxi8bv[class][class] .view-transition-new[view-transition-new]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-r1cxi8bv;}
+
+@keyframes fade-r1cxi8bv{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}
+
+.vzpe6cu[class][class]{--view-transition_play-state:running;}
+
+.v1cz7dl7[class][class]{display:contents;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition{--view-transition_duration:500ms;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition[view-transition]{--view-transition_duration:500ms;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-old(card-content){transform-origin:top center;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-old[view-transition-old="card-content"]{transform-origin:top center;}
+
+@media (prefers-reduced-motion:no-preference){
+.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-old(card-content){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_duration:75ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;--view-transition_mix-blend-mode:normal;animation:var(--reduced-motion_duration,var(--view-transition-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) move-v16wj6q4;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-old(card-content){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4,var(--reduced-motion_duration,var(--view-transition-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) move-v16wj6q4;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-old[view-transition-old="card-content"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_duration:75ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;--view-transition_mix-blend-mode:normal;animation:var(--reduced-motion_duration,var(--view-transition-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) move-v16wj6q4;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-old[view-transition-old="card-content"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4,var(--reduced-motion_duration,var(--view-transition-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) move-v16wj6q4;}
+
+@keyframes fade-v16wj6q4{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}
+
+@keyframes move-v16wj6q4{
+from{height:var(--view-transition-group-old_height);width:var(--view-transition-group-old_width);transform:translate( var(--view-transition-move-effect_from-x,0),var(--view-transition-move-effect_from-y,0) );}
+
+to{height:var(--view-transition-group-new_height);width:var(--view-transition-group-new_width);transform:translate(var(--view-transition_to-x,0),var(--view-transition_to-y,0));}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-old(card-content){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-old(card-content){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-old[view-transition-old="card-content"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-old[view-transition-old="card-content"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;}
+
+@keyframes fade-v16wj6q4{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class] ::view-transition-old(card-content){z-index:1;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class]  .view-transition-old[view-transition-old="card-content"]{z-index:1;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class] ::view-transition-new(card-content){z-index:1;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class]  .view-transition-new[view-transition-new="card-content"]{z-index:1;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-new(card-content){transform-origin:top center;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-new[view-transition-new="card-content"]{transform-origin:top center;}
+
+@media (prefers-reduced-motion:no-preference){
+.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-new(card-content){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;--view-transition_mix-blend-mode:normal;animation:var(--reduced-motion_duration,var(--view-transition-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) move-v16wj6q4;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-new(card-content){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4,var(--reduced-motion_duration,var(--view-transition-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) move-v16wj6q4;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-new[view-transition-new="card-content"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;--view-transition_mix-blend-mode:normal;animation:var(--reduced-motion_duration,var(--view-transition-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) move-v16wj6q4;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-new[view-transition-new="card-content"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4,var(--reduced-motion_duration,var(--view-transition-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) move-v16wj6q4;}
+
+@keyframes fade-v16wj6q4{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}
+
+@keyframes move-v16wj6q4{
+from{height:var(--view-transition-group-old_height);width:var(--view-transition-group-old_width);transform:translate( var(--view-transition-move-effect_from-x,0),var(--view-transition-move-effect_from-y,0) );}
+
+to{height:var(--view-transition-group-new_height);width:var(--view-transition-group-new_width);transform:translate(var(--view-transition_to-x,0),var(--view-transition_to-y,0));}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-new(card-content){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-new(card-content){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-new[view-transition-new="card-content"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-new[view-transition-new="card-content"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;}
+
+@keyframes fade-v16wj6q4{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-new(card-container){display:none;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-new[view-transition-new="card-container"]{display:none;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-old(card-container){animation:none;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-old[view-transition-old="card-container"]{animation:none;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-old(card-container) [data-static-element-wrapper] > [view-transition-element]{transform-origin:top center;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-old[view-transition-old="card-container"] [data-static-element-wrapper] > [view-transition-element]{transform-origin:top center;}
+
+@media (prefers-reduced-motion:no-preference){
+.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-old(card-container) [data-static-element-wrapper] > [view-transition-element]{--view-transition_mix-blend-mode:normal;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-old(card-container) [data-static-element-wrapper] > [view-transition-element]{animation:var(--reduced-motion_duration,var(--view-transition-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) move-v16wj6q4;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-old[view-transition-old="card-container"] [data-static-element-wrapper] > [view-transition-element]{--view-transition_mix-blend-mode:normal;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-old[view-transition-old="card-container"] [data-static-element-wrapper] > [view-transition-element]{animation:var(--reduced-motion_duration,var(--view-transition-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) move-v16wj6q4;}
+
+@keyframes move-v16wj6q4{
+from{height:var(--view-transition-group-old_height);width:var(--view-transition-group-old_width);transform:translate( var(--view-transition-move-effect_from-x,0),var(--view-transition-move-effect_from-y,0) );}
+
+to{height:var(--view-transition-group-new_height);width:var(--view-transition-group-new_width);transform:translate(var(--view-transition_to-x,0),var(--view-transition_to-y,0));}}}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class] ::view-transition-old(card-container){--active_border-color:transparent;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class]  .view-transition-old[view-transition-old="card-container"]{--active_border-color:transparent;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class] [scrim-element]{z-index:1;}
+
+@media (prefers-reduced-motion:no-preference){
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class] [scrim-element]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:0.6;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class] [scrim-element]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;}
+
+@keyframes fade-v16wj6q4{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class] [scrim-element]{display:none;}}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class] [scrim-element]{z-index:0;}
+
+@media (prefers-reduced-motion:no-preference){
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class] [scrim-element]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0.6;--view-transition-fade-effect_opacity-to:0;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class] [scrim-element]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;}
+
+@keyframes fade-v16wj6q4{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class] [scrim-element]{display:none;}}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class] ::view-transition-new(root){display:none;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class]  .view-transition-new[view-transition-new="root"]{display:none;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class] ::view-transition-old(root){transform-origin:bottom center;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class]  .view-transition-old[view-transition-old="root"]{transform-origin:bottom center;}
+
+@media (prefers-reduced-motion:no-preference){
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class] ::view-transition-old(root){--view-transition-scale-effect_to:0.94;animation:var(--reduced-motion_duration,var(--view-transition-scale-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-scale-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-scale-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) scale-v16wj6q4;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class] ::view-transition-old(root){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4,var(--reduced-motion_duration,var(--view-transition-scale-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-scale-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-scale-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) scale-v16wj6q4;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class]  .view-transition-old[view-transition-old="root"]{--view-transition-scale-effect_to:0.94;animation:var(--reduced-motion_duration,var(--view-transition-scale-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-scale-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-scale-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) scale-v16wj6q4;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class]  .view-transition-old[view-transition-old="root"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4,var(--reduced-motion_duration,var(--view-transition-scale-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-scale-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-scale-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) scale-v16wj6q4;}
+
+@keyframes scale-v16wj6q4{
+from{visibility:visible;scale:var(--view-transition-scale-effect_from,1);}
+
+to{scale:var(--view-transition-scale-effect_to,0);}}
+
+@keyframes fade-v16wj6q4{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class] ::view-transition-old(root){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class] ::view-transition-old(root){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class]  .view-transition-old[view-transition-old="root"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]).enter[class][class]  .view-transition-old[view-transition-old="root"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;}
+
+@keyframes fade-v16wj6q4{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class] ::view-transition-old(root){display:none;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class]  .view-transition-old[view-transition-old="root"]{display:none;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class] ::view-transition-new(root){transform-origin:bottom center;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class]  .view-transition-new[view-transition-new="root"]{transform-origin:bottom center;}
+
+@media (prefers-reduced-motion:no-preference){
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class] ::view-transition-new(root){--view-transition-scale-effect_from:0.94;--view-transition-scale-effect_to:1;animation:var(--reduced-motion_duration,var(--view-transition-scale-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-scale-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-scale-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) scale-v16wj6q4;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class] ::view-transition-new(root){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4,var(--reduced-motion_duration,var(--view-transition-scale-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-scale-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-scale-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) scale-v16wj6q4;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class]  .view-transition-new[view-transition-new="root"]{--view-transition-scale-effect_from:0.94;--view-transition-scale-effect_to:1;animation:var(--reduced-motion_duration,var(--view-transition-scale-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-scale-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-scale-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) scale-v16wj6q4;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class]  .view-transition-new[view-transition-new="root"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4,var(--reduced-motion_duration,var(--view-transition-scale-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-scale-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-scale-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) scale-v16wj6q4;}
+
+@keyframes scale-v16wj6q4{
+from{visibility:visible;scale:var(--view-transition-scale-effect_from,1);}
+
+to{scale:var(--view-transition-scale-effect_to,0);}}
+
+@keyframes fade-v16wj6q4{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class] ::view-transition-new(root){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class] ::view-transition-new(root){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class]  .view-transition-new[view-transition-new="root"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class]  .view-transition-new[view-transition-new="root"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v16wj6q4;}
+
+@keyframes fade-v16wj6q4{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class] ::view-transition-new(root) [data-static-element-wrapper] > [view-transition-element] [view-transition-element]{--view-transition_visibility:visible;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]).exit[class][class]  .view-transition-new[view-transition-new="root"] [data-static-element-wrapper] > [view-transition-element] [view-transition-element]{--view-transition_visibility:visible;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-group(root) [frozen-view-transition-old] [data-static-element-wrapper] > [view-transition-element] [view-transition-element],.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-group(root)::view-transition-old [data-static-element-wrapper] > [view-transition-element] [view-transition-element]{--view-transition_visibility:visible;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-group[view-transition-group="root"] [frozen-view-transition-old] [data-static-element-wrapper] > [view-transition-element] [view-transition-element],
+.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-group(root) .view-transition-old[view-transition-old] [data-static-element-wrapper] > [view-transition-element] [view-transition-element]{--view-transition_visibility:visible;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-group[view-transition-group="root"] [frozen-view-transition-old] [data-static-element-wrapper] > [view-transition-element] [view-transition-element],
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-group[view-transition-group="root"] .view-transition-old[view-transition-old] [data-static-element-wrapper] > [view-transition-element] [view-transition-element]{--view-transition_visibility:visible;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-group(root) [frozen-view-transition-old] [data-static-element-wrapper] > [view-transition-element] [view-transition-element] [active-element='true'],.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-group(root)::view-transition-old [data-static-element-wrapper] > [view-transition-element] [view-transition-element] [active-element='true']{visibility:hidden;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-group[view-transition-group="root"] [frozen-view-transition-old] [data-static-element-wrapper] > [view-transition-element] [view-transition-element] [active-element='true'],
+.v16wj6q4[class][class]:where(.contextual-grow[class][class])::view-transition-group(root) .view-transition-old[view-transition-old] [data-static-element-wrapper] > [view-transition-element] [view-transition-element] [active-element='true']{visibility:hidden;}
+
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-group[view-transition-group="root"] [frozen-view-transition-old] [data-static-element-wrapper] > [view-transition-element] [view-transition-element] [active-element='true'],
+.v16wj6q4[class][class]:where(.contextual-grow[class][class]) .view-transition-group[view-transition-group="root"] .view-transition-old[view-transition-old] [data-static-element-wrapper] > [view-transition-element] [view-transition-element] [active-element='true']{visibility:hidden;}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class])::view-transition-image-pair(screen){overflow:hidden;display:grid;height:100%;}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-image-pair[view-transition-image-pair="screen"]{overflow:hidden;display:grid;height:100%;}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class])::view-transition-old(screen),.vda4df1[class][class]:where(.slide-in-and-fade[class][class])::view-transition-new(screen){grid-area:1 / 1;position:relative;}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-old[view-transition-old="screen"],
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-new[view-transition-new="screen"]{grid-area:1 / 1;position:relative;}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] ::view-transition-new(screen){--view-transition_mix-blend-mode:normal;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] ::view-transition-new(screen){background:var(--view-transition_panel-background,#fff);}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:normal;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{background:var(--view-transition_panel-background,#fff);}
+
+@media (prefers-reduced-motion:no-preference){
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] ::view-transition-new(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:var(--slide-in-and-fade_offset,200px);--view-transition-relative-move-effect_to-x:0;--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;--view-transition-fade-effect_duration:350ms;--view-transition-fade-effect_delay:50ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] ::view-transition-new(screen){margin-top:calc( var(--view-transition-group-new_top,0) - var(--view-transition-group-old_top,0) );animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:var(--slide-in-and-fade_offset,200px);--view-transition-relative-move-effect_to-x:0;--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;--view-transition-fade-effect_duration:350ms;--view-transition-fade-effect_delay:50ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{margin-top:calc( var(--view-transition-group-new_top,0) - var(--view-transition-group-old_top,0) );animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;}
+
+@keyframes relative-move-vda4df1{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}
+
+@keyframes fade-vda4df1{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] ::view-transition-new(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] ::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+@keyframes fade-vda4df1{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:no-preference){
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] ::view-transition-old(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:0;--view-transition-relative-move-effect_to-x:calc(-1 * var(--slide-in-and-fade_offset,200px));--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;--view-transition-fade-effect_duration:75ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] ::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]  .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:0;--view-transition-relative-move-effect_to-x:calc(-1 * var(--slide-in-and-fade_offset,200px));--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;--view-transition-fade-effect_duration:75ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]  .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;}
+
+@keyframes relative-move-vda4df1{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}
+
+@keyframes fade-vda4df1{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] ::view-transition-old(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] ::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]  .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]  .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+@keyframes fade-vda4df1{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] ::view-transition-new(screen){--view-transition_mix-blend-mode:normal;}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]  .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:normal;}
+
+@media (prefers-reduced-motion:no-preference){
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] ::view-transition-new(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:calc(-1 * var(--slide-in-and-fade_offset,200px));--view-transition-relative-move-effect_to-x:0;--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;--view-transition-fade-effect_duration:350ms;--view-transition-fade-effect_delay:50ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] ::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]  .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:calc(-1 * var(--slide-in-and-fade_offset,200px));--view-transition-relative-move-effect_to-x:0;--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;--view-transition-fade-effect_duration:350ms;--view-transition-fade-effect_delay:50ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]  .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;}
+
+@keyframes relative-move-vda4df1{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}
+
+@keyframes fade-vda4df1{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] ::view-transition-new(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] ::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]  .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]  .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+@keyframes fade-vda4df1{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] ::view-transition-old(screen){background:var(--view-transition_panel-background,#fff);}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{background:var(--view-transition_panel-background,#fff);}
+
+@media (prefers-reduced-motion:no-preference){
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] ::view-transition-old(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:0;--view-transition-relative-move-effect_to-x:var(--slide-in-and-fade_offset,200px);--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;--view-transition-fade-effect_duration:75ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] ::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:0;--view-transition-relative-move-effect_to-x:var(--slide-in-and-fade_offset,200px);--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;--view-transition-fade-effect_duration:75ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vda4df1;}
+
+@keyframes relative-move-vda4df1{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}
+
+@keyframes fade-vda4df1{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] ::view-transition-old(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] ::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;}
+
+.dir.vda4df1[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vda4df1;}
+
+@keyframes fade-vda4df1{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class])::view-transition-old(root){display:none;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-old[view-transition-old="root"]{display:none;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class])::view-transition-new(root){mix-blend-mode:normal;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class])::view-transition-new(root){animation:none;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-new[view-transition-new="root"]{mix-blend-mode:normal;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-new[view-transition-new="root"]{animation:none;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class])::view-transition-group(view-root){z-index:2;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-group[view-transition-group="view-root"]{z-index:2;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class])::view-transition-old(view-root),.v1mud78p[class][class]:where(.slide-in-and-fade[class][class])::view-transition-new(view-root){display:none;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-old[view-transition-old="view-root"],
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-new[view-transition-new="view-root"]{display:none;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class])::view-transition-image-pair(view-root){display:flex;height:auto;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-image-pair[view-transition-image-pair="view-root"]{display:flex;height:auto;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class])::view-transition-group(screen){height:100%;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class])::view-transition-group(screen){animation:none;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-group[view-transition-group="screen"]{height:100%;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-group[view-transition-group="screen"]{animation:none;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class])::view-transition-image-pair(screen){mix-blend-mode:normal;display:grid;height:100%;overflow:hidden;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-image-pair[view-transition-image-pair="screen"]{mix-blend-mode:normal;display:grid;height:100%;overflow:hidden;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class])::view-transition-old(screen),.v1mud78p[class][class]:where(.slide-in-and-fade[class][class])::view-transition-new(screen){display:flex;grid-area:1 / 1;mix-blend-mode:normal;position:static;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-old[view-transition-old="screen"],
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-new[view-transition-new="screen"]{display:flex;grid-area:1 / 1;mix-blend-mode:normal;position:static;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class])::view-transition-new(screen){animation:none;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]) .view-transition-new[view-transition-new="screen"]{animation:none;}
+
+@media (prefers-reduced-motion:no-preference){
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]::view-transition-old(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:0;--view-transition-relative-move-effect_to-x:calc(-1 * var(--slide-in-and-fade_offset,200px));--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;--view-transition-fade-effect_duration:75ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:0;--view-transition-relative-move-effect_to-x:calc(-1 * var(--slide-in-and-fade_offset,200px));--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;--view-transition-fade-effect_duration:75ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;}
+
+@keyframes relative-move-v1mud78p{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}
+
+@keyframes fade-v1mud78p{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]::view-transition-old(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+@keyframes fade-v1mud78p{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]::view-transition-new(screen){background:var(--view-transition_panel-background,#fff);}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] .view-transition-new[view-transition-new="screen"]{background:var(--view-transition_panel-background,#fff);}
+
+@media (prefers-reduced-motion:no-preference){
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]::view-transition-new(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:var(--slide-in-and-fade_offset,200px);--view-transition-relative-move-effect_to-x:0;--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;--view-transition-fade-effect_duration:350ms;--view-transition-fade-effect_delay:50ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]::view-transition-new(screen){margin-top:calc( var(--view-transition-group-new_top,0) - var(--view-transition-group-old_top,0) );animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:var(--slide-in-and-fade_offset,200px);--view-transition-relative-move-effect_to-x:0;--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;--view-transition-fade-effect_duration:350ms;--view-transition-fade-effect_delay:50ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] .view-transition-new[view-transition-new="screen"]{margin-top:calc( var(--view-transition-group-new_top,0) - var(--view-transition-group-old_top,0) );animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;}
+
+@keyframes relative-move-v1mud78p{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}
+
+@keyframes fade-v1mud78p{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]::view-transition-new(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class]::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).enter[class][class] .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+@keyframes fade-v1mud78p{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]::view-transition-new(screen){--view-transition_mix-blend-mode:normal;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:normal;}
+
+@media (prefers-reduced-motion:no-preference){
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]::view-transition-new(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:calc(-1 * var(--slide-in-and-fade_offset,200px));--view-transition-relative-move-effect_to-x:0;--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;--view-transition-fade-effect_duration:350ms;--view-transition-fade-effect_delay:50ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:calc(-1 * var(--slide-in-and-fade_offset,200px));--view-transition-relative-move-effect_to-x:0;--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;--view-transition-fade-effect_duration:350ms;--view-transition-fade-effect_delay:50ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;}
+
+@keyframes relative-move-v1mud78p{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}
+
+@keyframes fade-v1mud78p{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]::view-transition-new(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:0;--view-transition-fade-effect_opacity-to:1;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+@keyframes fade-v1mud78p{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]::view-transition-old(screen){background:var(--view-transition_panel-background,#fff);}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] .view-transition-old[view-transition-old="screen"]{background:var(--view-transition_panel-background,#fff);}
+
+@media (prefers-reduced-motion:no-preference){
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]::view-transition-old(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:0;--view-transition-relative-move-effect_to-x:var(--slide-in-and-fade_offset,200px);--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;--view-transition-fade-effect_duration:75ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:0;--view-transition-relative-move-effect_to-x:var(--slide-in-and-fade_offset,200px);--view-transition-relative-move-effect_duration:500ms;animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;--view-transition-fade-effect_duration:75ms;animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p,var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1mud78p;}
+
+@keyframes relative-move-v1mud78p{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}
+
+@keyframes fade-v1mud78p{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]::view-transition-old(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class]::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);--view-transition-fade-effect_opacity-from:1;--view-transition-fade-effect_opacity-to:0;}
+
+.dir.v1mud78p[class][class]:where(.slide-in-and-fade[class][class]).exit[class][class] .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1mud78p;}
+
+@keyframes fade-v1mud78p{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class])::view-transition-old(root){display:none;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-old[view-transition-old="root"]{display:none;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class])::view-transition-new(root){opacity:1;}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class])::view-transition-new(root){animation:none;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-new[view-transition-new="root"]{opacity:1;}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-new[view-transition-new="root"]{animation:none;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class])::view-transition-group(screen){-webkit-clip-path:inset(0);clip-path:inset(0);height:100%;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-group[view-transition-group="screen"]{-webkit-clip-path:inset(0);clip-path:inset(0);height:100%;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class])::view-transition-image-pair(screen){display:grid;height:100%;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-image-pair[view-transition-image-pair="screen"]{display:grid;height:100%;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class])::view-transition-new(screen),.v4snkvz[class][class]:where(.slide-in-from-edge[class][class])::view-transition-old(screen){grid-area:1 / 1;position:relative;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-new[view-transition-new="screen"],
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-old[view-transition-old="screen"]{grid-area:1 / 1;position:relative;}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] ::view-transition-new(screen){background:var(--view-transition_panel-background,#fff);}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{background:var(--view-transition_panel-background,#fff);}
+
+@media (prefers-reduced-motion:no-preference){
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] ::view-transition-new(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:100%;--view-transition-relative-move-effect_duration:500ms;}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] ::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v4snkvz;margin-top:calc( var(--view-transition-group-new_top,0) - var(--view-transition-group-old_top,0) );}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:100%;--view-transition-relative-move-effect_duration:500ms;}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v4snkvz;margin-top:calc( var(--view-transition-group-new_top,0) - var(--view-transition-group-old_top,0) );}
+
+@keyframes relative-move-v4snkvz{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] ::view-transition-new(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] ::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v4snkvz;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v4snkvz;}
+
+@keyframes fade-v4snkvz{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:no-preference){
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] ::view-transition-old(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_to-x:-30%;--view-transition-relative-move-effect_duration:500ms;--view-transition_from-filter:brightness(var(--scrim-animation_start-brightness,1));--view-transition_to-filter:brightness(var(--scrim-animation_end-brightness,0.6));}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] ::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v4snkvz;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]  .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_to-x:-30%;--view-transition-relative-move-effect_duration:500ms;--view-transition_from-filter:brightness(var(--scrim-animation_start-brightness,1));--view-transition_to-filter:brightness(var(--scrim-animation_end-brightness,0.6));}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]  .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v4snkvz;}
+
+@keyframes relative-move-v4snkvz{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] ::view-transition-old(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] ::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v4snkvz;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]  .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]  .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v4snkvz;}
+
+@keyframes fade-v4snkvz{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:no-preference){
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] ::view-transition-new(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:-30%;--view-transition-relative-move-effect_duration:500ms;--view-transition_from-filter:brightness(var(--scrim-animation_end-brightness,0.6));--view-transition_to-filter:brightness(var(--scrim-animation_start-brightness,1));}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] ::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v4snkvz;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]  .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:-30%;--view-transition-relative-move-effect_duration:500ms;--view-transition_from-filter:brightness(var(--scrim-animation_end-brightness,0.6));--view-transition_to-filter:brightness(var(--scrim-animation_start-brightness,1));}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]  .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v4snkvz;}
+
+@keyframes relative-move-v4snkvz{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] ::view-transition-new(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] ::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v4snkvz;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]  .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]  .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v4snkvz;}
+
+@keyframes fade-v4snkvz{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] ::view-transition-new(screen) [view-transition-element]{--view-transition_overflow:visible;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]  .view-transition-new[view-transition-new="screen"] [view-transition-element]{--view-transition_overflow:visible;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] ::view-transition-old(screen){z-index:1;}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] ::view-transition-old(screen){background:var(--view-transition_panel-background,#fff);}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{z-index:1;}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{background:var(--view-transition_panel-background,#fff);}
+
+@media (prefers-reduced-motion:no-preference){
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] ::view-transition-old(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_to-x:100%;--view-transition-relative-move-effect_duration:500ms;}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] ::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v4snkvz;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_to-x:100%;--view-transition-relative-move-effect_duration:500ms;}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v4snkvz;}
+
+@keyframes relative-move-v4snkvz{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] ::view-transition-old(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] ::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v4snkvz;}
+
+.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v4snkvz[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v4snkvz;}
+
+@keyframes fade-v4snkvz{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class])::view-transition-old(root){display:none;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-old[view-transition-old="root"]{display:none;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class])::view-transition-new(root){opacity:1;}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class])::view-transition-new(root){animation:none;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-new[view-transition-new="root"]{opacity:1;}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-new[view-transition-new="root"]{animation:none;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class])::view-transition-group(screen){-webkit-clip-path:inset(0 0 -400px 0);clip-path:inset(0 0 -400px 0);height:100%;}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class])::view-transition-group(screen){animation:none;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-group[view-transition-group="screen"]{-webkit-clip-path:inset(0 0 -400px 0);clip-path:inset(0 0 -400px 0);height:100%;}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-group[view-transition-group="screen"]{animation:none;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class])::view-transition-image-pair(screen){display:grid;height:100%;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-image-pair[view-transition-image-pair="screen"]{display:grid;height:100%;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class])::view-transition-new(screen),.v1txbv48[class][class]:where(.slide-in-from-edge[class][class])::view-transition-old(screen){grid-area:1 / 1;position:static;mix-blend-mode:normal;display:flex;}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class])::view-transition-new(screen),.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class])::view-transition-old(screen){background:var(--view-transition_panel-background,#fff);}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-new[view-transition-new="screen"],
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-old[view-transition-old="screen"]{grid-area:1 / 1;position:static;mix-blend-mode:normal;display:flex;}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-new[view-transition-new="screen"],
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]) .view-transition-old[view-transition-old="screen"]{background:var(--view-transition_panel-background,#fff);}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]::view-transition-new(screen){object-view-box:inset(0% 0% -300% 0%);height:100%;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] .view-transition-new[view-transition-new="screen"]{object-view-box:inset(0% 0% -300% 0%);height:100%;}
+
+@media (prefers-reduced-motion:no-preference){
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]::view-transition-new(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:100%;--view-transition-relative-move-effect_duration:500ms;}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1txbv48;margin-top:calc( var(--view-transition-group-new_top,0) - var(--view-transition-group-old_top,0) );}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:100%;--view-transition-relative-move-effect_duration:500ms;}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1txbv48;margin-top:calc( var(--view-transition-group-new_top,0) - var(--view-transition-group-old_top,0) );}
+
+@keyframes relative-move-v1txbv48{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]::view-transition-new(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1txbv48;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1txbv48;}
+
+@keyframes fade-v1txbv48{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:no-preference){
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]::view-transition-old(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_to-x:-30%;--view-transition-relative-move-effect_duration:500ms;--view-transition_from-filter:brightness(var(--scrim-animation_start-brightness,1));--view-transition_to-filter:brightness(var(--scrim-animation_end-brightness,0.6));}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1txbv48;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_to-x:-30%;--view-transition-relative-move-effect_duration:500ms;--view-transition_from-filter:brightness(var(--scrim-animation_start-brightness,1));--view-transition_to-filter:brightness(var(--scrim-animation_end-brightness,0.6));}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1txbv48;}
+
+@keyframes relative-move-v1txbv48{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]::view-transition-old(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class]::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1txbv48;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).enter[class][class] .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1txbv48;}
+
+@keyframes fade-v1txbv48{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:no-preference){
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]::view-transition-new(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:-30%;--view-transition-relative-move-effect_duration:500ms;--view-transition_from-filter:brightness(var(--scrim-animation_end-brightness,0.6));--view-transition_to-filter:brightness(var(--scrim-animation_start-brightness,1));}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1txbv48;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:-30%;--view-transition-relative-move-effect_duration:500ms;--view-transition_from-filter:brightness(var(--scrim-animation_end-brightness,0.6));--view-transition_to-filter:brightness(var(--scrim-animation_start-brightness,1));}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1txbv48;}
+
+@keyframes relative-move-v1txbv48{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]::view-transition-new(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1txbv48;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1txbv48;}
+
+@keyframes fade-v1txbv48{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]::view-transition-old(screen){z-index:1;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] .view-transition-old[view-transition-old="screen"]{z-index:1;}
+
+@media (prefers-reduced-motion:no-preference){
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]::view-transition-old(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_to-x:100%;--view-transition-relative-move-effect_duration:500ms;object-view-box:inset(0% 0% -300% 0%);height:100%;}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1txbv48;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_to-x:100%;--view-transition-relative-move-effect_duration:500ms;object-view-box:inset(0% 0% -300% 0%);height:100%;}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-v1txbv48;}
+
+@keyframes relative-move-v1txbv48{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]::view-transition-old(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class]::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1txbv48;}
+
+.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.v1txbv48[class][class]:where(.slide-in-from-edge[class][class]).exit[class][class] .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-v1txbv48;}
+
+@keyframes fade-v1txbv48{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class])::view-transition-group(screen){overflow:hidden;}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]) .view-transition-group[view-transition-group="screen"]{overflow:hidden;}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class])::view-transition-old(root){display:none;}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]) .view-transition-old[view-transition-old="root"]{display:none;}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class])::view-transition-new(root){opacity:1;}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class])::view-transition-new(root){animation:none;}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]) .view-transition-new[view-transition-new="root"]{opacity:1;}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]) .view-transition-new[view-transition-new="root"]{animation:none;}
+
+@media (prefers-reduced-motion:no-preference){
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class] ::view-transition-old(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:0;--view-transition-relative-move-effect_to-x:0;}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class] ::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vn1yeh2;}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class]  .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:0;--view-transition-relative-move-effect_to-x:0;}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class]  .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vn1yeh2;}
+
+@keyframes relative-move-vn1yeh2{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class] ::view-transition-old(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class] ::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vn1yeh2;}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class]  .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class]  .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vn1yeh2;}
+
+@keyframes fade-vn1yeh2{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:no-preference){
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class] ::view-transition-new(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-y:100%;}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class] ::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vn1yeh2;}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-y:100%;}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vn1yeh2;}
+
+@keyframes relative-move-vn1yeh2{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class] ::view-transition-new(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class] ::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vn1yeh2;}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).enter[class][class]  .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vn1yeh2;}
+
+@keyframes fade-vn1yeh2{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class] ::view-transition-old(screen){z-index:1;}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{z-index:1;}
+
+@media (prefers-reduced-motion:no-preference){
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class] ::view-transition-old(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_to-y:100%;}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class] ::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vn1yeh2;}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_to-y:100%;}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vn1yeh2;}
+
+@keyframes relative-move-vn1yeh2{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class] ::view-transition-old(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class] ::view-transition-old(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vn1yeh2;}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class]  .view-transition-old[view-transition-old="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vn1yeh2;}
+
+@keyframes fade-vn1yeh2{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+
+@media (prefers-reduced-motion:no-preference){
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class] ::view-transition-new(screen){--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:0;--view-transition-relative-move-effect_to-x:0;}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class] ::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vn1yeh2;}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class]  .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:normal;--view-transition-fade-effect_opacity-from:1;--view-transition-relative-move-effect_from-x:0;--view-transition-relative-move-effect_to-x:0;}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class]  .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-relative-move-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-relative-move-effect_timing-function,var(--view-transition_timing-function,var(--itr-yy-z))) var(--view-transition-relative-move-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) relative-move-vn1yeh2;}
+
+@keyframes relative-move-vn1yeh2{
+from{filter:var(--view-transition_from-filter);visibility:visible;transform:translate( var(--view-transition-relative-move-effect_from-x,0),var(--view-transition-relative-move-effect_from-y,0) );}
+
+to{filter:var(--view-transition_to-filter);transform:translate( var(--view-transition-relative-move-effect_to-x,0),var(--view-transition-relative-move-effect_to-y,0) );}}}
+
+@media (prefers-reduced-motion:reduce),(update:slow),(update:none){
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class] ::view-transition-new(screen){--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class] ::view-transition-new(screen){animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vn1yeh2;}
+
+.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class]  .view-transition-new[view-transition-new="screen"]{--view-transition_mix-blend-mode:plus-lighter;opacity:var(--view-transition-fade-effect_opacity-from,0);}
+
+.dir.vn1yeh2[class][class]:where(.slide-up-from-bottom[class][class]).exit[class][class]  .view-transition-new[view-transition-new="screen"]{animation:var(--reduced-motion_duration,var(--view-transition-fade-effect_duration,var(--view-transition_duration,200ms))) var(--view-transition-fade-effect_timing-function,var(--view-transition_timing-function,linear)) var(--view-transition-fade-effect_delay,var(--view-transition_delay,0ms)) 1 normal var(--view-transition_fill-mode,both) var(--view-transition_play-state,paused) fade-vn1yeh2;}
+
+@keyframes fade-vn1yeh2{
+from{opacity:var(--view-transition-fade-effect_opacity-from,0);visibility:visible;}
+
+to{opacity:var(--view-transition-fade-effect_opacity-to,1);}}}
+.wy4jsd6[class][class]{display:contents;}
+.v34w2ga[class][class]{position:absolute;height:var(--view-transition-group-old_height,var(--view-transition-group-new_height));top:var(--view-transition-group-old_top,var(--view-transition-group-new_top));width:var(--view-transition-group-old_width,var(--view-transition-group-new_width));z-index:var(--view-transition-group_z-index,var(--view-transition-group_default-z-index));}
+
+.dir-ltr.v34w2ga[class][class]{left:var(--view-transition-group-old_left,var(--view-transition-group-new_left));}
+
+.dir-rtl.v34w2ga[class][class]{right:var(--view-transition-group-old_left,var(--view-transition-group-new_left));}
+
+.vhp7t6l[class][class]{--view-transition_group-new_visibility:visible;}
+.vi4mvdh[class][class]{isolation:isolate;}
+.c1w93ydq[class][class]{height:auto;mix-blend-mode:var(--view-transition_forced-blend-mode,var(--view-transition_mix-blend-mode));position:absolute;top:0;width:100%;--view-transition_visibility:var(--view-transition_group-new_visibility,hidden);}
+
+.dir-ltr.c1w93ydq[class][class]{left:0;}
+
+.dir-rtl.c1w93ydq[class][class]{right:0;}
+
+.c1w93ydq[class][class] > [data-static-element-wrapper] > [view-transition-element] [view-transition-element]{--view-transition_visibility:hidden;}
+
+.c1w93ydq[class][class] > [data-static-element-wrapper] > [view-transition-element]{top:0;-webkit-translate:0;translate:0;opacity:1;}
+
+.dir.c1w93ydq[class][class] > [data-static-element-wrapper] > [view-transition-element]{margin:0;}
+
+.dir-ltr.c1w93ydq[class][class] > [data-static-element-wrapper] > [view-transition-element]{left:0;}
+
+.dir-rtl.c1w93ydq[class][class] > [data-static-element-wrapper] > [view-transition-element]{right:0;}
+.c7kuf3g[class][class]{height:auto;mix-blend-mode:var(--view-transition_forced-blend-mode,var(--view-transition_mix-blend-mode));position:absolute;top:0;width:100%;}
+
+.dir-ltr.c7kuf3g[class][class]{left:0;}
+
+.dir-rtl.c7kuf3g[class][class]{right:0;}
+
+.c7kuf3g[class][class] > [data-static-element-wrapper] > [view-transition-element] [view-transition-element]{--view-transition_visibility:hidden;}
+
+.c7kuf3g[class][class] > [data-static-element-wrapper] > [view-transition-element]{top:0;-webkit-translate:0;translate:0;opacity:1;}
+
+.dir.c7kuf3g[class][class] > [data-static-element-wrapper] > [view-transition-element]{margin:0;}
+
+.dir-ltr.c7kuf3g[class][class] > [data-static-element-wrapper] > [view-transition-element]{left:0;}
+
+.dir-rtl.c7kuf3g[class][class] > [data-static-element-wrapper] > [view-transition-element]{right:0;}
