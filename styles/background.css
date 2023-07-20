@@ -1,0 +1,27 @@
+body::before,
+body::after {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  height: 0;
+  filter: blur(240vw);
+  opacity: 0.4;
+}
+
+body::before {
+  background: linear-gradient(132deg, #ee9e53 0.00%, #dfb84e 100.00%);
+  width: 78%;
+  padding-top: 78%;
+  left: 53%;
+  top: 17%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+body::after {
+  background: linear-gradient(132deg, #ea75ba 0.00%, #f778e0 100.00%);
+  width: 88%;
+  padding-top: 88%;
+  left: 30%;
+  top: 17%;
+  transform: translateX(-50%) translateY(-50%);
+}

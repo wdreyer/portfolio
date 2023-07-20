@@ -1,0 +1,88 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #ffffff, #edebe8);
+  z-index: 1;
+  margin: 0; /* Ajoutez cette ligne pour supprimer les marges par défaut du body */
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed; /* Modifier de 'absolute' à 'fixed' */
+  border-radius: 100%;
+  height: 0;
+  filter: blur(240vw);
+  opacity: 0.4;
+  z-index: -1;
+}
+
+body::before {
+  background: linear-gradient(132deg, #ee9e53 0.00%, #dfb84e 100.00%);
+  width: 78%;
+  padding-top: 78%;
+  left: 53%;
+  top: 17%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+body::after {
+  background: linear-gradient(132deg, #ea75ba 0.00%, #f778e0 100.00%);
+  width: 88%;
+  padding-top: 88%;
+  left: 30%;
+  top: 17%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.hover-link {
+  position: relative;
+}
+
+.hover-link::after {
+  content: "";
+  position: absolute;
+  bottom: -5px; /* Adjust this value to move the line down */
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #000; /* Adjust this color to the one you want */
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out; /* Increased transition time for a smoother effect */
+}
+
+.hover-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.modal {
+  right: auto;
+  left: auto;
+  border: black;
+  outline: none;
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
