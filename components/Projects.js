@@ -14,8 +14,8 @@ const Projects = () => {
             techIcons: [FaJsSquare, FaReact, FaFire],
             shortDescription: 'Aesh Manager est un Saas permettant la création de plannings croisés pour les AESH et les Enfants',
             description: 'AeshManager est une solution en ligne destinée aux directeurs d\'école et aux responsables de l\'éducation. En quelques clics, vous pouvez assigner des AESH aux élèves et vice versa, calculer leurs heures réelles ainsi que la différence avec leurs contrats ou leurs heures accordées.',
-            githubLink: 'https://github.com/user/AeshManager', // replace with the actual link
-            projectLink: 'https://AeshManager.com', // replace with the actual link
+            githubLink: 'https://github.com/wdreyer/aeshV2', 
+            projectLink: 'https://AeshManager.com', 
             carouselImages: ['Aesh1.png', 'Aesh2.png', 'Aesh3.png', 'Aesh4.png']
         },
        

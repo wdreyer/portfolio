@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import Modal from 'react-modal';
-import { FaJsSquare, FaReact, FaFire } from 'react-icons/fa';
+import {FaGithub, FaLink} from 'react-icons/fa';
 
 const ProjectCard = ({
   title,
@@ -65,21 +65,38 @@ const ProjectCard = ({
           },
         }}
       >
-        <div className="flex justify-between bg-slate-200 shadow p-2 rounded-lg">
-          <h2 className="bg-opacity-50 font-bold text-xl text-center">{title}</h2>
-          <button className="text-xl" onClick={closeModal}>
-            X
-          </button>
+        <div className="flex justify-between bg-white  shadow p-2 rounded-t-lg">
+          <h2 className=" font-bold text-xl text-center">{title}</h2>
+          <button
+          type="button"
+          className="absolute top-0 right-0 p-2"
+          onClick={closeModal}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6 text-gray-600 hover:text-gray-900 transition"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
         </div>
-        <div className="flex flex-col lg:flex-row">
-          <Carousel className="w-3/4 lg:w-1/2">
+        <div className="flex mt-2 flex-col lg:flex-row">
+          <Carousel className="border-1 m-1 shadow-lg w-3/4 lg:w-1/2">
             {carouselImages.map((img, index) => (
               <div key={index}>
-                <img src={img} alt={`Project screen ${index + 1}`} />
+                <img src={img} className='' alt={`Project screen ${index + 1}`} />
               </div>
             ))}
-          </Carousel>
-          <div className="w-3/4 lg:w-1/2 ml-4 p-4">
+          </Carousel >
+          <div className="border-1 shadow-lg m-1 w-3/4 lg:w-1/2 ml-4 p-4">
           <div className="mt-4">
           <h3 className="text-lg font-bold mb-2">Description</h3>
           <p>{description}</p>
@@ -91,16 +108,16 @@ const ProjectCard = ({
               ))}
             </div>
             <div className="mt-4">
-              <h3 className="text-lg font-bold mb-2">Links</h3>
-              <div className="space-y-2">
-                <a href={githubLink} className="text-blue-500 hover:underline">
-                  GitHub
-                </a>
-                <a href={projectLink} className="text-blue-500 hover:underline">
-                  Project Link
-                </a>
-              </div>
-            </div>
+  <h3 className="text-lg font-bold mb-2">Links</h3>
+  <div className="flex flex-row space-x-2">
+    <a href={githubLink} >
+      <FaGithub  className="w-6 h-6 text-gray-600 hover:text-gray-800 cursor-pointer" />
+    </a>
+    <a href={projectLink} >
+      <FaLink  className="w-6 h-6 text-gray-600 hover:text-gray-800 cursor-pointer "/>
+    </a>
+  </div>
+</div>
       
           </div>
         </div>
