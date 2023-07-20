@@ -148,13 +148,13 @@ export default function Home() {
             </p>
             <div className="flex mt-3 ">
             <div className=' ml-4 flex flex-row gap-4'>
-      <a href="https://www.linkedin.com/votre-profil" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/william-dreyer-b5121186/" target="_blank" rel="noopener noreferrer">
         <FaLinkedin size={32} className="text-gray-600 hover:text-gray-800 cursor-pointer" />
       </a>
-      <a href="https://github.com/votre-profil" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/wdreyer" target="_blank" rel="noopener noreferrer">
         <FaGithub size={32} className="text-gray-600 hover:text-gray-800 cursor-pointer" />
       </a>
-      <a href="mailto:votre-email@example.com">
+      <a href="mailto:contact@williamdev.fr">
         <FaEnvelope size={32} className="text-gray-600 hover:text-gray-800 cursor-pointer" />
       </a>
       </div>   
