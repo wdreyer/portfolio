@@ -8,12 +8,18 @@ import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import Modal from 'react-modal';
 import React from 'react';
 import ContactMe from './ContactMe';
+import { useTranslation } from 'react-i18next';
 
 
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [modalIsOpen, setModalIsOpen] = React.useState(false);
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   const openModal = () => {
     setModalIsOpen(true);
@@ -54,13 +60,14 @@ export default function Home() {
 
   
   return (
+    
     <div className="flex flex-col">
-      <nav
+    <nav
         className={`fixed w-full z-10 text-gray-600 font-bold uppercase ${
           isScrolled ? "bg-white bg-opacity-80 backdrop-blur-lg shadow" : ""
         }`}
       >
-        <div className="flex justify-center h-16 items-center ">
+        <div className="flex justify-center h-16 items-center">
           <ul className="flex space-x-8">
             <li>
               <Link
@@ -70,7 +77,7 @@ export default function Home() {
                 duration={500}
                 className="hover-link hover:text-black cursor-pointer"
               >
-                Home
+                {t('header.home')}
                 <span className="hover-line"></span>
               </Link>
             </li>
@@ -82,7 +89,7 @@ export default function Home() {
                 duration={500}
                 className="hover-link hover:text-black cursor-pointer"
               >
-                Projects
+                {t('header.projects')}
                 <span className="hover-line"></span>
               </Link>
             </li>
@@ -94,7 +101,7 @@ export default function Home() {
                 duration={500}
                 className="hover-link hover:text-black cursor-pointer"
               >
-                Skills
+                {t('header.skills')}
                 <span className="hover-line"></span>
               </Link>
             </li>
@@ -102,14 +109,24 @@ export default function Home() {
               <Link
                 to="experiences"
                 smooth={true}
+                offset={-50}
                 duration={500}
                 className="hover-link hover:text-black cursor-pointer"
               >
-                Experiences
+                {t('header.experiences')}
                 <span className="hover-line"></span>
               </Link>
             </li>
           </ul>
+          <div className='absolute top-5 right-5'>
+            <button onClick={() => changeLanguage('fr')} style={{ fontWeight: i18n.language === 'fr' ? 'bold' : 'normal' }}>
+              FR
+            </button>
+            /
+            <button onClick={() => changeLanguage('en')} style={{ fontWeight: i18n.language === 'en' ? 'bold' : 'normal' }}>
+              EN
+            </button>
+          </div>
         </div>
       </nav>
 
@@ -136,15 +153,14 @@ export default function Home() {
             initial="hidden"
             animate="visible"
           >
-            <h2 className="text-3xl font-bold mb-4">Hello, I'm William</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('hello')}</h2>
             <p className="text-xl ">
-              I'm a full-stack developer specialized in Javascript and in React. I love creating interactive and dynamic web and mobile applications. My specialities includes the fields of associations, education, and social matters, but I am open to any proposal.
-
+            {t('welcome')}
             </p>
           
             <div className=' flex flex-row'>
             <p className='text-xl font-bold mt-4'>
-            You can find me on :
+            {t('findMeOn')}
             </p>
             <div className="flex mt-3 ">
             <div className=' ml-4 flex flex-row gap-4'>
@@ -161,7 +177,7 @@ export default function Home() {
     </div> 
   </div>
   <p className='text-l font-bold mt-4'>
-  <button onClick={openModal} className="text-gray-600 hover:text-gray-800 cursor-pointer" >Or write me directly here</button>
+  <button onClick={openModal} className="text-gray-600 hover:text-gray-800 cursor-pointer" > {t('writeMeHere')}</button>
   </p>
           </motion.div>
         </div>
@@ -174,6 +190,13 @@ export default function Home() {
       </section>
       <section id="experiences">
       <Experiences />
+      </section>
+      <section
+        id="bottom"
+        className="h-[10rem] bg-opacity-10 shadow flex flex-col items-center justify-center  "
+      >
+      <h2 className="text-l font-bold ">{t('madeWithLove')}</h2>
+      <h2 className="text-l font-bold"><a href="mailto:contact@williamdev.fr">contact@williamdev.fr</a></h2>
       </section>
       <Modal
       isOpen={modalIsOpen}

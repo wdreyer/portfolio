@@ -1,4 +1,5 @@
 import { FaHtml5, FaCss3, FaReact, FaJs, FaFire, FaCode, FaWindowMaximize, FaServer, FaGithub, FaRocket } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next';
 
 const SkillItem = ({ icon, text }) => (
   <li className="flex items-center">
@@ -23,6 +24,8 @@ const SkillCategory = ({ title, skills }) => (
 );
 
 const Skills = () => {
+  const { t } = useTranslation();
+
   const frontEndSkills = [
     { icon: <FaHtml5 className="mr-2" />, text: 'HTML/CSS3' },
     { icon: <FaReact className="mr-2" />, text: 'React' },
@@ -43,8 +46,8 @@ const Skills = () => {
 
   return (
     <div className="h-[38rem] pt-14 flex flex-col items-center bg-slate-100 bg-opacity-10 shadow">
-      <h2 className="text-3xl font-bold mb-4">Skills</h2>
-      <p className="text-lg">Here are some of my skills:</p>
+    <h2 className="text-3xl font-bold mb-4">{t('skills.title')}</h2>
+    <p className="text-lg">{t('skills.intro')}</p>
       <div className="mt-10 w-full flex flex-wrap justify-center">
         <SkillCategory title="FrontEnd" skills={frontEndSkills} />
         <SkillCategory title="Backend" skills={backendSkills} />

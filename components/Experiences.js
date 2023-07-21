@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const ExperienceItem = ({ date, text }) => {
   const isDateInterval = date.includes('-');
@@ -25,14 +26,14 @@ const ExperienceItem = ({ date, text }) => {
 
 const ExperienceCategory = ({ title, experiences }) => {
   const cardHeight = "h-90"; // Adjust this value as needed
+  const { t } = useTranslation();
 
   return (
     <div className="m-4 w-80"> {/* Added width to limit card width */}
-        <h2 className="w-full rounded-t-xl bg-white py-2 bg-opacity-50 font-bold text-xl mb-2 text-center">
-          {title}
-        </h2>
-        <div className="rounded-xl flex flex-col items-center shadow-lg gap-4 p-4">
-
+      <h2 className="w-full rounded-t-xl bg-white py-2 bg-opacity-50 font-bold text-xl mb-2 text-center">
+        {t(`experiences.${title}.title`)}
+      </h2>
+      <div className="rounded-xl flex flex-col items-center shadow-lg gap-4 p-4">
         <ul className="list-disc list-inside">
           {experiences.map((experience, index) => (
             <React.Fragment key={index}>
@@ -52,36 +53,38 @@ const ExperienceCategory = ({ title, experiences }) => {
 };
 
 const Experiences = () => {
+  const { t } = useTranslation();
+
   const diplomesWebExperiences = [
-    { date: "2013", text: "IUT Réseaux & Télécommunication" },
-    { date: "2023", text: "Titre RNCP la Capsule" },
+    { date: "2013", text: t('experiences.diplomesWebExperiences.diplome1') },
+    { date: "2023", text: t('experiences.diplomesWebExperiences.diplome2') },
   ];
 
   const diplomesAutresExperiences = [
-    { date: "2016", text: "Licence Philosophie" },
-    { date: "2020", text: "Master 2 Science de l'éducation" },
+    { date: "2016", text: t('experiences.diplomesAutresExperiences.diplome1') },
+    { date: "2020", text: t('experiences.diplomesAutresExperiences.diplome2') },
   ];
 
   const experiencesWebExperiences = [
-    { date: "2010-2016", text: "Freelance Wordpress" },
-    { date: "2023-Now", text: "Freelance React" },
+    { date: "2010-2016", text: t('experiences.experiencesWebExperiences.experience1') },
+    { date: "2023-Now", text: t('experiences.experiencesWebExperiences.experience2') },
   ];
 
   const experiencesAutresExperiences = [
-    { date: "2017-Now", text: "Directeur de Séjour" },
-    { date: "2017-Now", text: "Directeur de Formation BAFA/BAFD" },
-    { date: "2020-2022", text: "Coordinateur du PRE" },
+    { date: "2017-Now", text: t('experiences.experiencesAutresExperiences.experience1') },
+    { date: "2017-Now", text: t('experiences.experiencesAutresExperiences.experience2') },
+    { date: "2020-2022", text: t('experiences.experiencesAutresExperiences.experience3') },
   ];
 
   return (
     <div className="h-[38rem] pt-14 flex flex-col items-center bg-slate-100 bg-opacity-10 shadow">
-      <h2 className="text-3xl font-bold mb-4">Experiences</h2>
-      <p className="text-lg">Here are some of my Experiences:</p>
+      <h2 className="text-3xl font-bold mb-4">{t('experiences.title')}</h2>
+      <p className="text-lg">{t('experiences.subtitle')}</p>
       <div className="mt-10 w-full flex flex-wrap justify-center">
-        <ExperienceCategory title="Diplômes Web" experiences={diplomesWebExperiences} />
-        <ExperienceCategory title="Diplômes autres" experiences={diplomesAutresExperiences} />
-        <ExperienceCategory title="Experiences Web" experiences={experiencesWebExperiences} />
-        <ExperienceCategory title="Experiences Autres" experiences={experiencesAutresExperiences} />
+        <ExperienceCategory title="diplomesWebExperiences" experiences={diplomesWebExperiences} />
+        <ExperienceCategory title="diplomesAutresExperiences" experiences={diplomesAutresExperiences} />
+        <ExperienceCategory title="experiencesWebExperiences" experiences={experiencesWebExperiences} />
+        <ExperienceCategory title="experiencesAutresExperiences" experiences={experiencesAutresExperiences} />
       </div>
     </div>
   );

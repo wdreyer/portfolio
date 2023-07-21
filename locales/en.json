@@ -1,0 +1,77 @@
+{
+    "header.home": "Home",
+    "header.projects": "Projects",
+    "header.skills": "Skills",
+    "header.experiences": "Experiences",
+    "hello": "Hello, I'm William",
+    "welcome": "I'm a full-stack developer specialized in Javascript and in React. I love creating interactive and dynamic web and mobile applications. My specialities includes the fields of associations, education, and social matters, but I am open to any proposal.",
+    "findMeOn": "You can find me on :",
+    "contactLinkedIn": "LinkedIn",
+    "contactGithub": "Github",
+    "contactEmail": "Email",
+    "writeMeHere": "Or write me directly here",
+    "madeWithLove": "Made with love by William",
+    "contactEmailLink": "contact@williamdev.fr",
+    "form": {
+        "name": "Name:",
+        "firstName": "First Name:",
+        "phone": "Phone:",
+        "email": "Email:",
+        "project": "Project:",
+        "send": "Send",
+        "successMessage": "Thank you! Your form has been successfully submitted.",
+        "errorMessage": "An error occurred while submitting the form. Please try again later."
+      },
+      "projects": {
+        "title": "Projects:",
+        "intro": "Here are some of my recent projects:",
+        "aeshManager": {
+          "shortDescription": "Aesh Manager is a Saas allowing the creation of cross-schedules for AESH and Children",
+          "description": "AeshManager is an online solution designed for school directors and education managers. In just a few clicks, you can assign AESH to students and vice versa, calculate their actual hours as well as the difference with their contracts or granted hours.",
+          "features": {
+            "authentication": "Authentication",
+            "schoolCreation": "School Creation",
+            "scheduleManagement": "Schedule Management",
+            "timeTracking": "Time Tracking"
+          }
+        }
+      },
+      "skills": {
+        "title": "Skills",
+        "intro": "Here are some of my skills:"
+      },
+      "projectCard": {
+        "description": "Description:",
+        "technologies": "Technologies:",
+        "features": "Features:",
+        "links": "Links:"
+      },
+      "experiences": {
+        "title": "Experiences",
+        "subtitle": "Here are some of my Experiences:",
+        "diplomesWebExperiences": {
+          "title": "Web Diplomas",
+          "diplome1": "IUT Networks & Telecommunications",
+          "diplome2": "RNCP Certificate La Capsule"
+        },
+        "diplomesAutresExperiences": {
+          "title": "Other Diplomas",
+          "diplome1": "Bachelor's Degree in Philosophy",
+          "diplome2": "Master's Degree in Education Science"
+        },
+        "experiencesWebExperiences": {
+          "title": "Web Experiences",
+          "experience1": "Freelance Wordpress",
+          "experience2": "Freelance React"
+        },
+        "experiencesAutresExperiences": {
+          "title": "Other Experiences",
+          "experience1": "Camp Director",
+          "experience2": "BAFA/BAFD Training Director",
+          "experience3": "PRE Coordinator"
+        }
+      }
+    
+  }
+  
+  
