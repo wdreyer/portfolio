@@ -33,7 +33,18 @@
             "schoolCreation": "School Creation",
             "scheduleManagement": "Schedule Management",
             "timeTracking": "Time Tracking"
-          }
+          }},    
+        "ColoCrew": {
+          "shortDescription": "ColoCrew is a web and mobile application that connects camp directors and animators directly.",
+            "description": "ColoCrew facilitates recruitment for holiday camps, leisure activities, after-school programs, etc. It allows recruiters or candidates to create their profile, their camp, and to specifically select profiles or camps that match their criteria.",
+            "features": {
+            "searching": "Profile Creation",
+            "2": "Camp Creation",
+            "3": "Sorting and Filtering",
+            "4": "Multi-camp Capability",
+            "5": "Recruitment Tracking"
+            }
+            
         }
       },
       "skills": {

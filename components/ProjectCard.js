@@ -39,11 +39,7 @@ const ProjectCard = ({
       />
       <div className="absolute bottom-0 w-full p-4 bg-white bg-opacity-90 transition-all duration-200 ease-in-out transform translate-y-full group-hover:translate-y-0">
         <p className="text-center">{shortDescription}</p>
-        <div className="flex justify-center space-x-2">
-          {techIcons.map((Icon, index) => (
-            <Icon key={index} className="w-6 h-6" />
-          ))}
-        </div>
+  
       </div>
 
       <Modal
@@ -119,10 +115,10 @@ const ProjectCard = ({
             <div className="mt-4">
               <h3 className="text-lg font-bold ">{t('projectCard.links')}</h3>
               <div className="flex flex-row space-x-2">
-                <a href={githubLink} >
+                <a href={githubLink} target="_blank" rel="noopener noreferrer" >
                   <FaGithub  className="w-6 h-6 text-gray-600 hover:text-gray-800 cursor-pointer" />
                 </a>
-                <a href={projectLink} >
+                <a href={projectLink} target="_blank" rel="noopener noreferrer" >
                   <FaLink  className="w-6 h-6 text-gray-600 hover:text-gray-800 cursor-pointer "/>
                 </a>
               </div>

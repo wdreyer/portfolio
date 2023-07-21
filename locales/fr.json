@@ -18,20 +18,30 @@
     "successMessage": "Merci ! Votre formulaire a été soumis avec succès.",
     "errorMessage": "Une erreur s'est produite lors de l'envoi du formulaire. Veuillez réessayer plus tard."
   },
-  "projects": {
-    "title": "Projets :",
-    "intro": "Voici quelques-uns de mes projets récents :",
-    "aeshManager": {
-      "shortDescription": "Aesh Manager est un Saas permettant la création de plannings croisés pour les AESH et les Enfants",
-      "description": "AeshManager est une solution en ligne destinée aux directeurs d'école et aux responsables de l'éducation. En quelques clics, vous pouvez assigner des AESH aux élèves et vice versa, calculer leurs heures réelles ainsi que la différence avec leurs contrats ou leurs heures accordées.",
-      "features": {
-        "authentication": "Authentification",
-        "schoolCreation": "Création d'école",
-        "scheduleManagement": "Gestion des emplois du temps",
-        "timeTracking": "Suivi du temps"
-      }
-    }
-  },
+"projects": {
+        "title": "Projets:",
+        "intro": "Voici quelques-un de mes projets récents :",
+        "aeshManager": {
+          "shortDescription": "Aesh Manager est un Saas permettant la création de plannings croisés pour les AESH et les Enfants",
+          "description": "AeshManager est une solution en ligne destinée aux directeurs d'école et aux responsables de l'éducation. En quelques clics, vous pouvez assigner des AESH aux élèves et vice versa, calculer leurs heures réelles ainsi que la différence avec leurs contrats ou leurs heures accordées.",
+          "features": {
+            "authentication": "Authentification",
+            "schoolCreation": "Création d'école",
+            "scheduleManagement": "Gestion des emplois du temps",
+            "timeTracking": "Suivi du temps"
+          }},
+        "ColoCrew": {
+          "shortDescription": "ColoCrew est une application web et mobile pour mettre en relation directeurs.ices et animateurs.ices",
+          "description": "ColoCrew facilite le recrutement pour les séjours de vacance, les accueils de loirs, le périscolaire,.. Il permet aux recruteurs ou aux candidats de créer leur profil , leur séjour et de selectionner uniquement des profils ou des séjours qui leur correspond.",
+          "features": {
+            "searching": "Création de profil",
+            "2": "Création de Séjour",
+            "3": "Tri et filtre",
+            "4": "Possibilité de multiséjour",
+            "5": "Suivi du recrutement"
+          }
+        }
+      },
   "skills": {
     "title": "Compétences",
     "intro": "Voici quelques-unes de mes compétences :"

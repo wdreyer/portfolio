@@ -24,42 +24,26 @@ const Projects = () => {
       carouselImages: ['Aesh1.png', 'Aesh2.png', 'Aesh3.png', 'Aesh4.png']
     },
     {
-      title: 'AeshManager2',
-      mainImage: 'AeshManagerMain.png',
+      title: 'ColoCrew',
+      mainImage: 'ColoCrewMain.jpg',
       techIcons: [FaJsSquare, FaReact, FaFire],
-      shortDescription: t('projects.aeshManager.shortDescription'),
-      description: t('projects.aeshManager.description'),
-      githubLink: 'https://github.com/wdreyer/aeshV2',
-      projectLink: 'https://AeshManager.com',
+      shortDescription: t('projects.ColoCrew.shortDescription'),
+      description: t('projects.ColoCrew.description'),
+      githubLink: 'https://github.com/wdreyer/colocrew',
+      projectLink: 'https://colocrew.com',
       features: [
-        t('projects.aeshManager.features.authentication'),
-        t('projects.aeshManager.features.schoolCreation'),
-        t('projects.aeshManager.features.scheduleManagement'),
-        t('projects.aeshManager.features.timeTracking')
+        t('projects.ColoCrew.features.searching'),
+        t('projects.ColoCrew.features.2'),
+        t('projects.ColoCrew.features.3'),
+        t('projects.ColoCrew.features.4')
       ],
-      carouselImages: ['Aesh1.png', 'Aesh2.png', 'Aesh3.png', 'Aesh4.png']
-    },
-    {
-      title: '3',
-      mainImage: 'AeshManagerMain.png',
-      techIcons: [FaJsSquare, FaReact, FaFire],
-      shortDescription: t('projects.aeshManager.shortDescription'),
-      description: t('projects.aeshManager.description'),
-      githubLink: 'https://github.com/wdreyer/aeshV2',
-      projectLink: 'https://AeshManager.com',
-      features: [
-        t('projects.aeshManager.features.authentication'),
-        t('projects.aeshManager.features.schoolCreation'),
-        t('projects.aeshManager.features.scheduleManagement'),
-        t('projects.aeshManager.features.timeTracking')
-      ],
-      carouselImages: ['Aesh1.png', 'Aesh2.png', 'Aesh3.png', 'Aesh4.png']
-    },
-    // Ajoutez plus de projets ici
-  ];
+      carouselImages: ['ColoCrew1.jpg', 'ColoCrew2.jpg', 'ColoCrew3.jpg', 'ColoCrew4.jpg']
+    }
+  ]
+  
 
   return (
-    <div className="h-min[38rem] pt-14 flex flex-col items-center bg-slate-100 bg-opacity-10 shadow">
+    <>
       <h2 className="text-3xl font-bold mb-4">{t('projects.title')}</h2>
       <p className="text-lg">{t('projects.intro')}</p>
       <div className="mt-10 flex flex-wrap justify-center">
@@ -69,7 +53,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 

@@ -61,76 +61,101 @@ export default function Home() {
     
     <div className="flex flex-col">
     <nav
-        className={`fixed w-full z-10 text-gray-600 font-bold uppercase ${
-          isScrolled ? "bg-white bg-opacity-80 backdrop-blur-lg shadow" : ""
-        }`}
-      >
-        <div className="flex justify-center h-16 items-center">
-          <ul className="flex space-x-8">
-            <li>
-              <Link
-                to="hero"
-                smooth={true}
-                offset={-80}
-                duration={500}
-                className="hover-link hover:text-black cursor-pointer"
-              >
-                {t('header.home')}
-                <span className="hover-line"></span>
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="projects"
-                smooth={true}
-                offset={-50}
-                duration={500}
-                className="hover-link hover:text-black cursor-pointer"
-              >
-                {t('header.projects')}
-                <span className="hover-line"></span>
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="skills"
-                smooth={true}
-                offset={-50}
-                duration={500}
-                className="hover-link hover:text-black cursor-pointer"
-              >
-                {t('header.skills')}
-                <span className="hover-line"></span>
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="experiences"
-                smooth={true}
-                offset={-50}
-                duration={500}
-                className="hover-link hover:text-black cursor-pointer"
-              >
-                {t('header.experiences')}
-                <span className="hover-line"></span>
-              </Link>
-            </li>
-          </ul>
-          <div className='absolute top-5 right-5'>
-            <button onClick={() => changeLanguage('fr')} style={{ fontWeight: i18n.language === 'fr' ? 'bold' : 'normal' }}>
-              FR
-            </button>
-            /
-            <button onClick={() => changeLanguage('en')} style={{ fontWeight: i18n.language === 'en' ? 'bold' : 'normal' }}>
-              EN
-            </button>
-          </div>
-        </div>
-      </nav>
+    className={`fixed w-full z-10 text-gray-600 font-bold uppercase ${
+      isScrolled ? "bg-white bg-opacity-80 backdrop-blur-lg shadow" : ""
+    }`}
+  >
+    <div className="flex justify-between h-16 items-center px-4 md:px-10">
+    <div></div> 
+    <ul className="flex space-x-2 md:space-x-8 text-sm md:text-base items-center">
+        <li>
+          <Link
+            to="hero"
+            smooth={true}
+            offset={-80}
+            duration={500}
+            className="hover-link hover:text-black cursor-pointer"
+          >
+            {t('header.home')}
+            <span className="hover-line"></span>
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="projects"
+            smooth={true}
+            offset={-50}
+            duration={500}
+            className="hover-link hover:text-black cursor-pointer"
+          >
+            {t('header.projects')}
+            <span className="hover-line"></span>
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="skills"
+            smooth={true}
+            offset={-50}
+            duration={500}
+            className="hover-link hover:text-black cursor-pointer"
+          >
+            {t('header.skills')}
+            <span className="hover-line"></span>
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="experiences"
+            smooth={true}
+            offset={-50}
+            duration={500}
+            className="hover-link hover:text-black cursor-pointer"
+          >
+            {t('header.experiences')}
+            <span className="hover-line"></span>
+          </Link>
+        </li>
+      </ul>
+      <div className="flex items-center gap-2">
+      <button
+  onClick={() => {
+    const newLanguage = i18n.language === 'fr' ? 'en' : 'fr';
+    changeLanguage(newLanguage);
+  }}
+  className="text-sm font-bold"
+>
+  <span
+    className={`${
+      i18n.language === 'fr' ? 'text-black font-bold' : 'text-gray-600'
+    }`}
+  >
+    FR
+  </span>
+  /
+  <span
+    className={`${
+      i18n.language === 'en' ? 'text-black font-bold' : 'text-gray-600'
+    }`}
+  >
+    EN
+  </span>
+</button>
+
+
+
+      </div>
+    </div>
+  </nav>
+  
+  
+  
+  
+     
 
       <section
         id="hero"
-        className="h-min[38rem] py-16 mt-16 bg-opacity-10 shadow flex flex-col items-center justify-center  "
+        className="min-h-[38rem] py-16 mt-16 bg-opacity-10 shadow flex flex-col items-center justify-center  "
       >
         <div className=" mx-auto w-2/3 flex flex-col md:flex-row gap-10    ">
           <motion.div
@@ -179,19 +204,19 @@ export default function Home() {
   </p>
           </motion.div>
         </div>
-      </section>
-      <section id="projects">
+      </section >
+      <section id="projects" className="min-h-[38rem] pt-14 flex flex-col items-center bg-slate-100 bg-opacity-10 shadow" >
         <Projects />
       </section>
-      <section id="skills">
+      <section id="skills" className="min-h-[38rem] pt-14 flex flex-col items-center bg-slate-100 bg-opacity-10 shadow">
         <Skills />
       </section>
-      <section id="experiences">
+      <section id="experiences" className="min-h-[38rem] pt-14 flex flex-col items-center bg-slate-100 bg-opacity-10 shadow">
       <Experiences />
       </section>
       <section
         id="bottom"
-        className="h-[10rem] bg-opacity-10 shadow flex flex-col items-center justify-center  "
+        className=" min-h-[10rem] bg-opacity-10 shadow flex flex-col items-center justify-center"
       >
       <h2 className="text-l font-bold ">{t('madeWithLove')}</h2>
       <h2 className="text-l font-bold"><a href="mailto:contact@williamdev.fr">contact@williamdev.fr</a></h2>
