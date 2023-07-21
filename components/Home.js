@@ -130,7 +130,7 @@ export default function Home() {
 
       <section
         id="hero"
-        className="h-[38rem] mt-16 bg-opacity-10 shadow flex flex-col items-center justify-center  "
+        className="h-min[38rem] py-16 mt-16 bg-opacity-10 shadow flex flex-col items-center justify-center  "
       >
         <div className=" mx-auto w-2/3 flex flex-col md:flex-row gap-10    ">
           <motion.div

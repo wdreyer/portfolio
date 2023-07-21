@@ -6,7 +6,6 @@ import i18n from '../i18n'
 function App({ Component, pageProps }) {
   return (
     <I18nextProvider i18n={i18n}>
-
       <Head>
         <title>William Dreyer Dev JS/React</title>
       </Head>
