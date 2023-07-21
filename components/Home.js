@@ -28,17 +28,15 @@ export default function Home() {
   const closeModal = () => {
     setModalIsOpen(false);
   };
-
   const imageVariant = {
-    hidden: { opacity: 0,  y: -100 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } }
+    hidden: { opacity: 0, y: -50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 1, ease: 'easeOut' } },
   };
   
   const textVariant = {
-    hidden: { opacity: 0, y: -100 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5, delay: 0.5 } }
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 1, ease: 'easeOut' } },
   };
-
 
   const handleScroll = () => {
     const offset = window.scrollY;
