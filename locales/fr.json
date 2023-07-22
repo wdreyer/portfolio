@@ -4,10 +4,10 @@
   "header.skills": "Compétences",
   "header.experiences": "Expériences",
   "hello": "Bonjour, je suis William",
-  "welcome": "Je suis un développeur full-stack spécialisé en JavaScript et en React. Je crée des applications web et mobiles interactives et dynamiques. Je suis spécialisé dans les domaines associatifs, éducatifs et sociaux, mais je suis ouvert à toute proposition.",
+  "welcome": "Je suis un développeur full-stack spécialisé en JavaScript et en React. Je crée des applications web et mobiles interactives et dynamiques. Je suis spécialisé dans les domaines associatifs, éducatifs et sociaux, mais je suis ouvert à toute proposition. Bienvenue sur mon Portfolio n'hésitez pas à le parcourir pour en apprendre plus sur moi ",
   "findMeOn": "Vous pouvez me retrouver sur :",
   "writeMeHere": "Ou m'écrire directement ici",
-  "madeWithLove": "Fait avec amour par William",
+  "madeWithLove": "Fait avec \u2764 par William",
   "form": {
     "name": "Nom :",
     "firstName": "Prénom :",
