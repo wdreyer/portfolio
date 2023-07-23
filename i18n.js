@@ -13,7 +13,7 @@ const resources = {
 };
 
 i18n.use(initReactI18next).init({
-  fallbackLng: 'fr', // Assurez-vous que 'fr' est défini comme langue par défaut
+  fallbackLng: 'en', // Assurez-vous que 'fr' est défini comme langue par défaut
   debug: true, // Active les messages de débogage (à désactiver en production)
   resources,
 });
