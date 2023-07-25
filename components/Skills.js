@@ -9,9 +9,9 @@ const SkillItem = ({ icon, text }) => (
 );
 
 const SkillCategory = ({ title, skills }) => (
-    <div className='m-4'>
-  <div className="rounded-xl flex flex-col items-center shadow-lg w-64 h-72 gap-4">
-    <h2 className="w-full bg-white py-2 bg-opacity-50 font-bold text-xl mb-2 text-center">
+    <div className='m-4 '>
+  <div className=" flex rounded-xl flex-col items-center shadow-lg w-64 h-72 gap-4">
+    <h2 className="w-full rounded-t-xl bg-white py-2 bg-opacity-50 font-bold text-xl mb-2 text-center">
       {title}
     </h2>
     <ul className="list-disc list-inside">
