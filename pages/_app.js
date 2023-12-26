@@ -8,15 +8,22 @@ function App({ Component, pageProps }) {
     <I18nextProvider i18n={i18n}>
       <Head>
         <title>William Dreyer Dev JS/React</title>
-      </Head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NFRYWZPG1F"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-NFRYWZPG1F"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
 
-  gtag('config', 'G-NFRYWZPG1F');
-</script>
+              gtag('config', 'G-NFRYWZPG1F');
+            `,
+          }}
+        />
+      </Head>
       <Component {...pageProps} />
       </I18nextProvider>
   );
